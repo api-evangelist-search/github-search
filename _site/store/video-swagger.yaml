@@ -1,0 +1,28 @@
+- name: composer.json
+  url: >-
+    https://api.github.com/repositories/190195520/contents/composer.json?ref=b11e2f0cf3c0a31a5b61c9293547ba004313f9f7
+  owner: mmilaprat
+  repo: pos_test
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/106316372/contents/package.json?ref=8c7300e5f78689df2c691db5c4d097b10271809e
+  owner: process-engine
+  repo: documentation
+  valid_check: 0
+  valid_type: unknown
+- name: swagger.json
+  url: >-
+    https://api.github.com/repositories/182801292/contents/app/interface/bbq/app-bbq/swagger.json?ref=beccf3fe4313be190d655c9f0620a6b4fac0b522
+  owner: fancyjianghua
+  repo: bilibili
+  valid_check: 0
+  valid_type: unknown
+- name: bower.json
+  url: >-
+    https://api.github.com/repositories/47118617/contents/WebService/bower.json?ref=82dedcb0145ccbf4c04f364b4c69831f4bb01007
+  owner: StephaneMangin
+  repo: VideoGen-xDsml
+  valid_check: 0
+  valid_type: unknown

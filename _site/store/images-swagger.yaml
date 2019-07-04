@@ -1,0 +1,700 @@
+- name: 574640b338f0d84339750f93.json
+  url: >-
+    https://api.github.com/repositories/78590760/contents/midterm/Data/Archives/2016/5/574640b338f0d84339750f93.json?ref=1ba37bbf65371d587f0ac4907a700c3d0238469f
+  owner: s-rohil
+  repo: DataAnalysis_Python_Spring17
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/67627924/contents/swagger-editor/package.json?ref=c05a2f74a6122ccd98a44b9e6d7bd23fa44f7312
+  owner: alanrestful
+  repo: APIDoc
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/141027931/contents/package.json?ref=35b9aa200c7bd391e6b5e1f3abd6d965584a3e37
+  owner: qluqua
+  repo: vue-blank
+  valid_check: 0
+  valid_type: unknown
+- name: nodered-flow1.json
+  url: >-
+    https://api.github.com/repositories/95435345/contents/nodered-flow1.json?ref=0e691408bb43ca7889008ec550083c308fd7d55f
+  owner: dais-ita
+  repo: image-annotation
+  valid_check: 0
+  valid_type: unknown
+- name: appsettings.Development.json
+  url: >-
+    https://api.github.com/repositories/189297424/contents/src/services/Intern/appsettings.Development.json?ref=a5896cc8bfe88f421798e758fc774e854e6bc393
+  owner: nikitabuyevich
+  repo: InternBootcamp
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/66355190/contents/swagger-editor/package.json?ref=65257c8f2029ed362593042498ad7a38721844f0
+  owner: mimarec
+  repo: swagger-doc-viewer
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/91666074/contents/swagger/swagger-editor-2.0/package.json?ref=41b5e0c3214368229c4333a7589824cdde327a30
+  owner: mozre
+  repo: TODO-Web
+  valid_check: 0
+  valid_type: unknown
+- name: apis.json
+  url: >-
+    https://api.github.com/repositories/19959031/contents/public/apisdef/trade.gov/apis.json?ref=e6238a96f61889705154d39028cdc4abf8d905ce
+  owner: apisio
+  repo: apis.io
+  valid_check: 0
+  valid_type: unknown
+- name: 'guru:nytimes.com:top_stories.json'
+  url: >-
+    https://api.github.com/repositories/75313640/contents/action_specs/swagger/guru:nytimes.com:top_stories.json?ref=d6ff9b4ef32de971e6c209018e466a11475e89e1
+  owner: sbryant31
+  repo: nativesync-backend
+  valid_check: 0
+  valid_type: unknown
+- name: watsonflow.json
+  url: >-
+    https://api.github.com/repositories/147465074/contents/watsonflow.json?ref=2e31b6053d3df931bd7f3e9e530a0beb83529d4c
+  owner: kyokonishito
+  repo: watson-vr-nodered
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/122300291/contents/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=504143f67ca1398baf3b53d667161bb565bf6c67
+  owner: mredmundto
+  repo: wso2-apimanager-WB
+  valid_check: 0
+  valid_type: unknown
+- name: 1109456545413128192_batch_statuses.json
+  url: >-
+    https://api.github.com/repositories/181983722/contents/scandal/json_data1/college_cheating_scandal/1109456545413128192_batch_statuses.json?ref=cb4a7d0881900afa3dd1302deef35ce1790ee4a6
+  owner: CarlyLarsson
+  repo: CS273_Project
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/179560572/contents/package.json?ref=029c5243afdde14c8711abb6f964475e1965c0b2
+  owner: ajilo297
+  repo: vscode-swagger-snippets
+  valid_check: 0
+  valid_type: unknown
+- name: swagger-config.json
+  url: >-
+    https://api.github.com/repositories/126165815/contents/swagger-config.json?ref=e37fdfb3094fbb8742ec3fa834b0263c5063caec
+  owner: hoangl8696
+  repo: apiserver
+  valid_check: 0
+  valid_type: unknown
+- name: 2019.json
+  url: >-
+    https://api.github.com/repositories/20067640/contents/assets/lunr/2019.json?ref=1d15eb1ef1bb21e6a694e23f6ee879c9c02f6607
+  owner: ykgarfield
+  repo: ykgarfield.github.io
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/125130676/contents/tools/swagger/swagger-editor/package.json?ref=f866b40a5c3ff7ebcdf9ecc36ee8621fa9b00a96
+  owner: canuckleheadeh
+  repo: NodeSimulator
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/90740449/contents/package.json?ref=e72e011b12f9697a8c3da14b8ba05a95693ab673
+  owner: Maronee
+  repo: swagger-custom
+  valid_check: 0
+  valid_type: unknown
+- name: shooter-2007.json
+  url: >-
+    https://api.github.com/repositories/102635462/contents/data/shooter-2007.json?ref=dcc3bcad4b074c0a8b8b610281ce51d21950909c
+  owner: renjithgr
+  repo: movie-data
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/97689903/contents/package.json?ref=768dbf4d1c6c496d1b1c69f25dabb6a9788433b4
+  owner: marc-despland
+  repo: imagesbank
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/122639205/contents/package.json?ref=51173a51091431aa63cc33f12be72ddf16dad45f
+  owner: NikhilSaini38
+  repo: google-image-scraper-api
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/91693841/contents/package.json?ref=577c351f5a64fac1a1762af87f47faeea6f2bd24
+  owner: BME319
+  repo: cdmisRestAPI
+  valid_check: 0
+  valid_type: unknown
+- name: tech-skills-array.json
+  url: >-
+    https://api.github.com/repositories/182840838/contents/src/tech-skills-array.json?ref=06c72a9d3e660266848b50b0668c12e886edc03d
+  owner: DustinMcGilvray
+  repo: Portfolio
+  valid_check: 0
+  valid_type: unknown
+- name: 5535ceb980213d4814c88e4dfa31ed78cc007591.json
+  url: >-
+    https://api.github.com/repositories/77447169/contents/metadata/5535ceb980213d4814c88e4dfa31ed78cc007591.json?ref=455a0e89d3cebd26e1f644becd498fa322b5e984
+  owner: therobinhood
+  repo: part-75
+  valid_check: 0
+  valid_type: unknown
+- name: swagger.json
+  url: >-
+    https://api.github.com/repositories/105765363/contents/shared/public/downloads/v2/specs/apis.guru/2.0/swagger.json?ref=f27bc4ee41d133f35301ef2fabf606cdce51b47b
+  owner: roscopecoltran
+  repo: krakend-admin
+  valid_check: 0
+  valid_type: unknown
+- name: index.json
+  url: >-
+    https://api.github.com/repositories/74494851/contents/json/apis_guru/2.0.2/index.json?ref=166ce881e225524572d3bdc2e6cc3a802f077123
+  owner: DataFire
+  repo: Integrations
+  valid_check: 0
+  valid_type: unknown
+- name: index.json
+  url: >-
+    https://api.github.com/repositories/74494851/contents/json/apis_guru/2.0.3/index.json?ref=166ce881e225524572d3bdc2e6cc3a802f077123
+  owner: DataFire
+  repo: Integrations
+  valid_check: 0
+  valid_type: unknown
+- name: index.json
+  url: >-
+    https://api.github.com/repositories/74494851/contents/json/apis_guru/3.0.0/index.json?ref=166ce881e225524572d3bdc2e6cc3a802f077123
+  owner: DataFire
+  repo: Integrations
+  valid_check: 0
+  valid_type: unknown
+- name: moderatecontent.com_1.0.0.json
+  url: >-
+    https://api.github.com/repositories/160283292/contents/src/main/resources/finish/moderatecontent.com_1.0.0.json?ref=4f1a628279a275d363e586ac181002cfd61c648f
+  owner: Pudding124
+  repo: SwaggerStructure
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/79579525/contents/swagger-editor/package.json?ref=3c193b1e07986246f350176bd5648be97ff6ef34
+  owner: danielandrukonis
+  repo: vida-test
+  valid_check: 0
+  valid_type: unknown
+- name: config.example.json
+  url: >-
+    https://api.github.com/repositories/157365639/contents/config.example.json?ref=8ff2318ff6c69c198dd491a2e678c715524ea32c
+  owner: sangha
+  repo: sangha
+  valid_check: 0
+  valid_type: unknown
+- name: vss-extension.json
+  url: >-
+    https://api.github.com/repositories/189107952/contents/vss-extension.json?ref=780526e28a63c5566a7f031654e66d98604cfd2e
+  owner: ReleaseNotesHub
+  repo: Azure-Devops-Extension
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/63329584/contents/server/src/main/resources/static/swagger-editor/package.json?ref=9f7907fd3ac2c7cd64ebf35e8010d94920feeb80
+  owner: androidzhaoxiaogang
+  repo: angular2-oauth2-swagger2
+  valid_check: 0
+  valid_type: unknown
+- name: b1f419df6ee971a3e82cd46214e0ba68d1d6100c.json
+  url: >-
+    https://api.github.com/repositories/76502494/contents/metadata/b1f419df6ee971a3e82cd46214e0ba68d1d6100c.json?ref=6f7443a3db09478f6329d1d714b95640802947b6
+  owner: therobinhood
+  repo: part-21
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/75730389/contents/swagger-editor/package.json?ref=aae6c8a6de0a3d8be87bb532a7c7ddc1603456ff
+  owner: deliver-it
+  repo: deliverit-swagger
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/95102415/contents/swagger-editor/package.json?ref=20a50ddf747e58e6c298792e8b6816783caad3ab
+  owner: thejeshgn
+  repo: text
+  valid_check: 0
+  valid_type: unknown
+- name: 52cab17338f0d86071e858f4.json
+  url: >-
+    https://api.github.com/repositories/78590835/contents/midterm/Que%202/Archive/2014/Jan/52cab17338f0d86071e858f4.json?ref=4a8aba8332d3541eefb7e9bf2bf559721b746127
+  owner: nithkar
+  repo: python_spring17
+  valid_check: 0
+  valid_type: unknown
+- name: 545bf0a138f0d85e5ee916e5.json
+  url: >-
+    https://api.github.com/repositories/78590835/contents/midterm/Que%202/Archive/2014/Nov/545bf0a138f0d85e5ee916e5.json?ref=4a8aba8332d3541eefb7e9bf2bf559721b746127
+  owner: nithkar
+  repo: python_spring17
+  valid_check: 0
+  valid_type: unknown
+- name: 5669abc638f0d8298f0502fb.json
+  url: >-
+    https://api.github.com/repositories/78590835/contents/midterm/Que%202/Archive/2015/Mar/5669abc638f0d8298f0502fb.json?ref=4a8aba8332d3541eefb7e9bf2bf559721b746127
+  owner: nithkar
+  repo: python_spring17
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/142041966/contents/components/jaggery-apps/publisher/src/main/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=55bd9f69bdd44409908aa0143b93b023f544d3ca
+  owner: ChamaniS
+  repo: Chamani-Repository-1
+  valid_check: 0
+  valid_type: unknown
+- name: node-red-freeboard.json
+  url: >-
+    https://api.github.com/repositories/147261048/contents/node-red-freeboard.json?ref=5d7e9ac5964d34a380c55f4ee9eb3e30661725e3
+  owner: phyunsj
+  repo: embedded-freeboard-dashboard
+  valid_check: 0
+  valid_type: unknown
+- name: 574640b338f0d84339750f93.json
+  url: >-
+    https://api.github.com/repositories/78590633/contents/Midterm/DataProcessedNYT/2016-05-26/574640b338f0d84339750f93.json?ref=c62f53525a88159ffefbc19afdcd9b01dd6ffbfb
+  owner: MITESHPUTHRANNEU
+  repo: python_analysis
+  valid_check: 0
+  valid_type: unknown
+- name: 550a1c9238f0d83e27c1dc90.json
+  url: >-
+    https://api.github.com/repositories/78590633/contents/Midterm/DataProcessedNYT/2015-03-19/550a1c9238f0d83e27c1dc90.json?ref=c62f53525a88159ffefbc19afdcd9b01dd6ffbfb
+  owner: MITESHPUTHRANNEU
+  repo: python_analysis
+  valid_check: 0
+  valid_type: unknown
+- name: apis.guru_2.0.1.json
+  url: >-
+    https://api.github.com/repositories/160283292/contents/src/main/resources/finish/apis.guru_2.0.1.json?ref=4f1a628279a275d363e586ac181002cfd61c648f
+  owner: Pudding124
+  repo: SwaggerStructure
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/148125533/contents/node1/wso2am-2.1.0/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=3c3471438c3c56fe981248c2d2c8833013f6a0dc
+  owner: lnash94
+  repo: Active-Active-Deployment
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/148125533/contents/node2/wso2am-2.1.0/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=3c3471438c3c56fe981248c2d2c8833013f6a0dc
+  owner: lnash94
+  repo: Active-Active-Deployment
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/64729110/contents/components/jaggery-apps/publisher/src/main/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=7098651830d210cbe499a4183243f6f62dd57605
+  owner: buddhimihara
+  repo: component-dep
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/113294391/contents/Cluster/GW/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=50d754f2bd16a80b1976e99cc0ff6427c37598fa
+  owner: Buddhimala
+  repo: TaskRepo
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/113294391/contents/Cluster/wso2am-2.1.0/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=50d754f2bd16a80b1976e99cc0ff6427c37598fa
+  owner: Buddhimala
+  repo: TaskRepo
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/101738074/contents/package.json?ref=b761b8cb6b8d8163be493fcee70407daff07a64e
+  owner: marc-despland
+  repo: fiware-imagesbank
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/73901261/contents/components/jaggery-apps/publisher/src/main/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=e3bf95dc033cde90a4baaa5da4db6c41162ef543
+  owner: sdkottegoda
+  repo: component-dep
+  valid_check: 0
+  valid_type: unknown
+- name: 5669abc638f0d8298f0502fb-2015-03-08.json
+  url: >-
+    https://api.github.com/repositories/78590680/contents/Mid/Midterm/Data/Archives/sports_json_split/5669abc638f0d8298f0502fb-2015-03-08.json?ref=29ab9e0caced2f82e87331f8ac0e88277d78b014
+  owner: sreevatsan1991
+  repo: athinarayanan_sreevatsan_spring2017
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/77226355/contents/swagger-editor-2.10.5/package.json?ref=9f60f6022d8720468be2aacfefdc3c58df976a56
+  owner: xwh123807
+  repo: research
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/139656891/contents/LanMeiShop-master/lanmei-cms-web/src/main/webapp/WEB-INF/swagger-editor/package.json?ref=3bd99e20113757f26116943d6b74d04cff9c4cc2
+  owner: skyherot92
+  repo: FirstMyGitProject
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/139656891/contents/LanMeiShop-master/lanmei-os-web/src/main/webapp/WEB-INF/swagger-editor/package.json?ref=3bd99e20113757f26116943d6b74d04cff9c4cc2
+  owner: skyherot92
+  repo: FirstMyGitProject
+  valid_check: 0
+  valid_type: unknown
+- name: spec.json
+  url: >-
+    https://api.github.com/repositories/185369928/contents/lib/spec.json?ref=f63c22eace2cc52cee54d200ba4dfa63a46d1f54
+  owner: flowground
+  repo: moderatecontent-com-connector
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/167205693/contents/Mocking_Services/swagger-editor/package.json?ref=0ae35317eada6bdafc5aeb25d7f3d0680e83c108
+  owner: Apress
+  repo: building-digital-experience-platforms
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/151547961/contents/swagger-editor/package.json?ref=0e3e8b9150ca32b4db5060bf2c3de55fa583b4b0
+  owner: thejeshgn
+  repo: apps
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/111429953/contents/package.json?ref=314378ad2c820aade3b8c502618177a4f769fc4e
+  owner: peterstarling
+  repo: image-resize
+  valid_check: 0
+  valid_type: unknown
+- name: appsettings.Development.json
+  url: >-
+    https://api.github.com/repositories/189298660/contents/Intern/appsettings.Development.json?ref=a2b413976fe842c9c0bf8ef743da0ba7d2b4143d
+  owner: rammk1999
+  repo: IMO-Intern-IntroProject
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/165835945/contents/Publisher/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=5859533ea8fb9e15a96d9444921bc32279998e4f
+  owner: mmartinezh
+  repo: wso2DistribuiedWithIS
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/165835945/contents/Store/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=5859533ea8fb9e15a96d9444921bc32279998e4f
+  owner: mmartinezh
+  repo: wso2DistribuiedWithIS
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/165835945/contents/Gateway/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=5859533ea8fb9e15a96d9444921bc32279998e4f
+  owner: mmartinezh
+  repo: wso2DistribuiedWithIS
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/165835945/contents/KeyManager/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=5859533ea8fb9e15a96d9444921bc32279998e4f
+  owner: mmartinezh
+  repo: wso2DistribuiedWithIS
+  valid_check: 0
+  valid_type: unknown
+- name: api-overview.json
+  url: >-
+    https://api.github.com/repositories/115981527/contents/component/app-store-ui/src/assets/files/api-overview.json?ref=8e6358267da1cf1409e1d629cd1d1950100d3558
+  owner: WSO2Telco
+  repo: app-store
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/73807762/contents/components/jaggery-apps/publisher/src/main/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=3dc1a87751cf38c43d1b04cfc55075d9dcb4db66
+  owner: ayyoob
+  repo: component-dep
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/71866624/contents/package.json?ref=cd53334ab42ab490037a903b0fb6ae68d8047af9
+  owner: micrqwe
+  repo: swagger
+  valid_check: 0
+  valid_type: unknown
+- name: ItemImages.json
+  url: >-
+    https://api.github.com/repositories/105233309/contents/public/output/ItemImages.json?ref=350a0317e9a55a0e419f0ef33b975e02961b2a8d
+  owner: yokoyang
+  repo: node-scp
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/188365083/contents/swagger-editor/package.json?ref=ac67cfea2b56384a16d26be65c1a8cfcb6e4823e
+  owner: gautamamber
+  repo: swagger_documentation
+  valid_check: 0
+  valid_type: unknown
+- name: 536a2bad38f0d86f20fb8e36.json
+  url: >-
+    https://api.github.com/repositories/81482572/contents/midterm/data/Archive/2015/May/536a2bad38f0d86f20fb8e36.json?ref=26a798253800ff74a0a9527941ded712e172a546
+  owner: gayathrimaganti
+  repo: maganti_gayathridevi_spring2017
+  valid_check: 0
+  valid_type: unknown
+- name: 536a2bad38f0d86f20fb8e36.json
+  url: >-
+    https://api.github.com/repositories/81482572/contents/midterm/data/Archive/2014/May/536a2bad38f0d86f20fb8e36.json?ref=26a798253800ff74a0a9527941ded712e172a546
+  owner: gayathrimaganti
+  repo: maganti_gayathridevi_spring2017
+  valid_check: 0
+  valid_type: unknown
+- name: products.json
+  url: >-
+    https://api.github.com/repositories/15323539/contents/store_data/fenix/products.json?ref=fed311cf5150245d48859575815687e1f178274b
+  owner: jsuggs
+  repo: nemo
+  valid_check: 0
+  valid_type: unknown
+- name: 1109456651008905216_batch_statuses.json
+  url: >-
+    https://api.github.com/repositories/181983722/contents/scandal/json_data1/college_cheating_scandal/1109456651008905216_batch_statuses.json?ref=cb4a7d0881900afa3dd1302deef35ce1790ee4a6
+  owner: CarlyLarsson
+  repo: CS273_Project
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/77240966/contents/package.json?ref=db0f941e5bec78d925b626020edc10edcb3e936f
+  owner: dfeingol
+  repo: swagger-editor
+  valid_check: 0
+  valid_type: unknown
+- name: default-dev.json
+  url: >-
+    https://api.github.com/repositories/87542044/contents/config/default-dev.json?ref=6bafc1029d77ccfed6b86a0af66267ecef253011
+  owner: YnovDocker
+  repo: ynov-docker-back
+  valid_check: 0
+  valid_type: unknown
+- name: default-prod.json
+  url: >-
+    https://api.github.com/repositories/87542044/contents/config/default-prod.json?ref=6bafc1029d77ccfed6b86a0af66267ecef253011
+  owner: YnovDocker
+  repo: ynov-docker-back
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/148102997/contents/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=90c8a440ec2ded75adcb94e91df6dda0ed980025
+  owner: lnash94
+  repo: API-Manager
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/134115033/contents/_tools/swagger-editor/package.json?ref=aa15e05ba7ed21334520ab31605269672555db17
+  owner: nodumo
+  repo: platform_backend
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/82798878/contents/swagger/package.json?ref=efe3269e5d5edb8ebb3740f177725ac5930179a8
+  owner: cato1011
+  repo: swagger-ide
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/160409202/contents/package.json?ref=a0070f2fbc70efbefc3bb6bfc44041fd2f4163fc
+  owner: darosh
+  repo: oax-upgrade
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/69327442/contents/package.json?ref=c8403bf64ed2153465c3545cff78b171d63e6a54
+  owner: dawnsf
+  repo: testcode
+  valid_check: 0
+  valid_type: unknown
+- name: appsettings.Development.json
+  url: >-
+    https://api.github.com/repositories/161559806/contents/src/api/Tournament.Api/appsettings.Development.json?ref=d658ff5a914b08150c4914388cc8d9c287b24377
+  owner: MarcAdans
+  repo: Tournament
+  valid_check: 0
+  valid_type: unknown
+- name: cloudmersive.com_ocr_v1.json
+  url: >-
+    https://api.github.com/repositories/159462748/contents/src/main/resources/downloadFinish/cloudmersive.com_ocr_v1.json?ref=80e5e7a4e95ed8f102d538151e77657e15416fd6
+  owner: Pudding124
+  repo: SearchGitHub
+  valid_check: 0
+  valid_type: unknown
+- name: 2.0.json
+  url: >-
+    https://api.github.com/repositories/102663710/contents/specs/apis.guru/2.0.json?ref=24eef4d43dafc9f4dccbe2288c63d091ff71fd52
+  owner: darosh
+  repo: openapi-directory-lite
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/113319813/contents/value-labs/wso2am-2.1.0/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=b623c152a68cfee97e80e7b38f7915ee6206a5e6
+  owner: viswanadh5997
+  repo: wso2_stuff
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/113319813/contents/wso2am-2.1.0/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=b623c152a68cfee97e80e7b38f7915ee6206a5e6
+  owner: viswanadh5997
+  repo: wso2_stuff
+  valid_check: 0
+  valid_type: unknown
+- name: 'guru:import.io:data.json'
+  url: >-
+    https://api.github.com/repositories/75313640/contents/action_specs/swagger/guru:import.io:data.json?ref=d6ff9b4ef32de971e6c209018e466a11475e89e1
+  owner: sbryant31
+  repo: nativesync-backend
+  valid_check: 0
+  valid_type: unknown
+- name: 'guru:import.io:extraction.json'
+  url: >-
+    https://api.github.com/repositories/75313640/contents/action_specs/swagger/guru:import.io:extraction.json?ref=d6ff9b4ef32de971e6c209018e466a11475e89e1
+  owner: sbryant31
+  repo: nativesync-backend
+  valid_check: 0
+  valid_type: unknown
+- name: 'guru:import.io:rss.json'
+  url: >-
+    https://api.github.com/repositories/75313640/contents/action_specs/swagger/guru:import.io:rss.json?ref=d6ff9b4ef32de971e6c209018e466a11475e89e1
+  owner: sbryant31
+  repo: nativesync-backend
+  valid_check: 0
+  valid_type: unknown
+- name: 'guru:import.io:schedule.json'
+  url: >-
+    https://api.github.com/repositories/75313640/contents/action_specs/swagger/guru:import.io:schedule.json?ref=d6ff9b4ef32de971e6c209018e466a11475e89e1
+  owner: sbryant31
+  repo: nativesync-backend
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/88259505/contents/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=89443a8c74b4eb03e849bacaf35186335f69b73d
+  owner: MarinaCiobanu
+  repo: jaggeryapps
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/90795439/contents/wso2am-2.1.0/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=dc05bdf0757870f6c23c9e73855b1c05c0a171b7
+  owner: levimodesto
+  repo: wso2-api
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/81163970/contents/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=ad48cab0d721659f0c1a086e3149199e21fda55d
+  owner: gumab
+  repo: wso2am-2.1.0
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/80806196/contents/repository/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=bbac346fd6458d01783b9e3da62667b6e5246a40
+  owner: gumab
+  repo: wso2dev
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/75704034/contents/features/apimgt/org.wso2.carbon.apimgt.publisher.feature/src/main/resources/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=74e4a844f4a749361f012685640c64bfd9a1f4ac
+  owner: zengtaotao3390
+  repo: carbon-apimgt
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/156674430/contents/deployment/server/jaggeryapps/publisher/site/themes/wso2/libs/swagger-editor/package.json?ref=e9caa84a921ebd7d39a1313f056bb3876af2f770
+  owner: felix-centenera
+  repo: wso2Deployment
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/100701466/contents/backend/web/techdocs/api/swagger-editor/package.json?ref=a0fa48fe7c2580656ddfcbc0f8542a746856a5c4
+  owner: CiventyCompany
+  repo: Demo-yii2-back-office
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/75820032/contents/package.json?ref=5fbffc77b643d4459ce310c1e2c150e8ab2fd93d
+  owner: bhavya1sree
+  repo: swagger
+  valid_check: 0
+  valid_type: unknown
+- name: package.json
+  url: >-
+    https://api.github.com/repositories/98969555/contents/package.json?ref=e46b1ce81459a128d9ec3b59499d92ada69edf6d
+  owner: xfz1987
+  repo: swagger-editor
+  valid_check: 0
+  valid_type: unknown
+- name: 5669abc638f0d8298f0502fb.json
+  url: >-
+    https://api.github.com/repositories/78590633/contents/Midterm/DataProcessedNYT/2015-03-08/5669abc638f0d8298f0502fb.json?ref=c62f53525a88159ffefbc19afdcd9b01dd6ffbfb
+  owner: MITESHPUTHRANNEU
+  repo: python_analysis
+  valid_check: 0
+  valid_type: unknown
+- name: 'guru:nytimes.com:times_tags.json'
+  url: >-
+    https://api.github.com/repositories/75313640/contents/action_specs/swagger/guru:nytimes.com:times_tags.json?ref=d6ff9b4ef32de971e6c209018e466a11475e89e1
+  owner: sbryant31
+  repo: nativesync-backend
+  valid_check: 0
+  valid_type: unknown
