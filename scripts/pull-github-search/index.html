@@ -88,21 +88,20 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
        response_yaml = jsyaml.dump(relevant);
 
-       var datetime = new Date().toLocaleString();
-       datetime = datetime.replace(/\//g,'-');
-       datetime = datetime.replace(/:/g,'-');
-       datetime = datetime.replace(/,/g,'');
-       datetime = datetime.replace(/ /g,'-');
+       saveFileName = query.replace(/\//g,'-');
+       saveFileName = saveFileName.replace(/:/g,'-');
+       saveFileName = saveFileName.replace(/,/g,'');
+       saveFileName = saveFileName.replace(/ /g,'-');
 
-       var saveFileName = datetime.toLowerCase();
-       var saveFile = 'github-' + query.replace(/\s+/g, '-').toLowerCase() + '-' + saveFileName + ".yaml";
+       var saveFileName = saveFileName.toLowerCase();
+       var saveFile = query.replace(/\s+/g, '-').toLowerCase() + '-' + saveFileName + ".yaml";
 
        var request = {};
-       request['message'] = 'storing github search process';
+       request['message'] = 'scripts/pull-github-search';
 
        var committer = {};
        committer['name'] = 'Kin Lane';
-       committer['email'] = 'kinlane@gmail.com';
+       committer['email'] = 'info@apievangelist.com';
 
        request['author'] = committer;
 
