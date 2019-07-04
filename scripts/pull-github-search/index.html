@@ -92,9 +92,9 @@ This makes a code search request to GitHub API, and saves the results to the /st
        saveFileName = saveFileName.replace(/:/g,'-');
        saveFileName = saveFileName.replace(/,/g,'');
        saveFileName = saveFileName.replace(/ /g,'-');
+       saveFileName = saveFileName.toLowerCase();
 
-       var saveFileName = saveFileName.toLowerCase();
-       var saveFile = query.replace(/\s+/g, '-').toLowerCase() + '-' + saveFileName + ".yaml";
+       var saveFile = saveFileName + ".yaml";
 
        var request = {};
        request['message'] = 'scripts/pull-github-search';
