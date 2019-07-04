@@ -198,8 +198,8 @@ This makes a code search request to GitHub API, and saves the results to the /st
              r['url'] = url;
              r['owner'] = owner;
              r['repo'] = repository;
-             r['domain_process'] = 0;
-             r['html_process'] = 0;
+             r['valid_check'] = 0;
+             r['valid_type'] = 'unknown';
 
              if(stored==0){
                relevant.push(r);
