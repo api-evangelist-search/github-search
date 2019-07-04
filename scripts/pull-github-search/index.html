@@ -1,0 +1,125 @@
+---
+layout: page
+title: 'Pull GitHub Search'
+---
+
+<h1>Pull GitHub Search</h1>
+This makes a code search request to GitHub API, and saves the results to the /store within this GitHub repository.
+
+<ul style="width: 100%;" id="results"></ul>
+
+<script type="text/javascript">
+
+  function getHostName(url) {
+      var match = url.match(/:\/\/(www[0-9]?\.)?(.[^/:]+)/i);
+      if (match != null && match.length > 2 && typeof match[2] === 'string' && match[2].length > 0) {
+      return match[2];
+      }
+      else {
+          return null;
+      }
+  }
+
+  function myDateSTring(){
+    return util.printd("yyyymmdd_HHMMss", new Date());
+  }
+
+  var query = getUrlVar('query');
+  var page = getUrlVar('page');
+  if(page=''){
+    page = 1;
+  }
+
+  var githubToken = getUrlVar('githubToken');
+
+  var org = '{{ site.org }}';
+  var repo = '{{ site.repo }}';
+
+  var api_url = 'https://api.github.com/search/code?q=' + query + '&per_page=100&page=' + page;
+
+	var response = $.ajax({
+     url: api_url,
+     method: "get",
+     headers: {
+      'Authorization':'token ' + githubToken,
+      'Accept':'application/vnd.github.v3+json'
+     },
+     success:function(response){
+
+       response_yaml = jsyaml.dump(response);
+       results = response;
+
+       var datetime = new Date().toLocaleString();
+       datetime = datetime.replace(/\//g,'-');
+       datetime = datetime.replace(/:/g,'-');
+       datetime = datetime.replace(/,/g,'');
+       datetime = datetime.replace(/ /g,'-');
+
+       var saveFileName = datetime.toLowerCase();
+       var saveFile = 'github-' + query.replace(/\s+/g, '-').toLowerCase() + '-' + saveFileName + ".yaml";
+
+       var request = {};
+       request['message'] = 'storing github search process';
+
+       var committer = {};
+       committer['name'] = 'Kin Lane';
+       committer['email'] = 'kinlane@gmail.com';
+
+       request['author'] = committer;
+
+       request['content'] = btoa(unescape(encodeURIComponent(response_yaml)))
+
+       var api_url = 'https://api.github.com/repos/api-evangelist-search/bing-search/contents/store/' + saveFile;
+
+       request = JSON.stringify(request);
+
+       //console.log(api_url);
+
+       console.log(request);
+
+       $.ajax({
+         url : api_url,
+         type: 'PUT',
+         dataType : "json",
+         data: request,
+         headers: {
+          'Authorization':'token ' + githubToken,
+          'Accept':'application/vnd.github.v3+json'
+         },
+       });
+
+       items = results.items;
+       for (i = 0; i < items.length; i++) {
+
+         var name = items[i].name;
+         var url = items[i].url;
+         var displayUrl = getHostName(url);
+         var li = document.createElement("li");
+
+         var a = document.createElement("a");
+         a.setAttribute("href", url);
+         var t = document.createTextNode(name);
+         a.appendChild(t);
+         li.appendChild(a);
+
+         var a = document.createElement("a");
+         a.setAttribute("href", displayUrl);
+         var t = document.createTextNode(' (' + displayUrl + ')');
+         a.appendChild(t);
+         li.appendChild(a);
+
+         var t = document.createTextNode(name);
+         document.getElementById('results').appendChild(li);
+
+       }
+
+      },
+      error: function(XMLHttpRequest, textStatus, errorThrown) {
+          console.log("Status: " + textStatus);
+          console.log("Error: " + errorThrown);
+      }
+  });
+
+
+
+</script>

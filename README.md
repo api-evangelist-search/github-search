@@ -1,2 +1,3 @@
-# github-search
-This is the github search.
+# GitHub Search
+
+This is a worker in the API search engine.

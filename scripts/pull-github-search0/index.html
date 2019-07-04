@@ -1,0 +1,120 @@
+---
+layout: page
+title: 'POC'
+---
+
+<h1>Bing</h1>
+This makes a search request to Bing, and saves the results to the /store within this GitHub repository.
+
+<ul style="width: 100%;" id="results"></ul>
+
+<script type="text/javascript">
+
+  function getHostName(url) {
+      var match = url.match(/:\/\/(www[0-9]?\.)?(.[^/:]+)/i);
+      if (match != null && match.length > 2 && typeof match[2] === 'string' && match[2].length > 0) {
+      return match[2];
+      }
+      else {
+          return null;
+      }
+  }
+
+  function myDateSTring(){
+    return util.printd("yyyymmdd_HHMMss", new Date());
+  }
+
+  var query = getUrlVar('query');
+  var bingToken = getUrlVar('bingToken');
+  var githubToken = getUrlVar('githubToken');
+  var org = '{{ site.org }}';
+  var repo = '{{ site.repo }}';
+
+  url = 'https://api.cognitive.microsoft.com/bing/v7.0/search?q=' + query  + '&count=25';
+
+	var response = $.ajax({
+     url: url,
+     method: "get",
+     headers: {
+      'Ocp-Apim-Subscription-Key': bingToken
+     },
+     success:function(response){
+
+         response_yaml = jsyaml.dump(response);
+         //console.log('response: ' + response_json);
+         results = response.webPages.value;
+
+         var datetime = new Date().toLocaleString();
+         datetime = datetime.replace(/\//g,'-');
+         datetime = datetime.replace(/:/g,'-');
+         datetime = datetime.replace(/,/g,'');
+         datetime = datetime.replace(/ /g,'-');
+
+         var saveFileName = datetime.toLowerCase();
+         var saveFile = 'bing-' + query.replace(/\s+/g, '-').toLowerCase() + '-' + saveFileName + ".yaml";
+
+         var request = {};
+         request['message'] = 'storing bing search process';
+
+         var committer = {};
+         committer['name'] = 'Kin Lane';
+         committer['email'] = 'kinlane@gmail.com';
+
+         request['author'] = committer;
+
+         request['content'] = btoa(unescape(encodeURIComponent(response_yaml)))
+
+         var api_url = 'https://api.github.com/repos/api-evangelist-search/bing-search/contents/store/' + saveFile;
+
+         request = JSON.stringify(request);
+
+         //console.log(api_url);
+
+         console.log(request);
+
+         $.ajax({
+           url : api_url,
+           type: 'PUT',
+           dataType : "json",
+           data: request,
+           headers: {
+            'Authorization':'token ' + githubToken,
+            'Accept':'application/vnd.github.v3+json'
+           },
+         });
+
+         for (i = 0; i < results.length; i++) {
+
+           var name = results[i].name;
+           var url = results[i].url;
+           var snippet = results[i].snippet;
+           var displayUrl = results[i].displayUrl;
+           displayUrl = getHostName(displayUrl);
+           var li = document.createElement("li");
+
+           var a = document.createElement("a");
+           a.setAttribute("href", url);
+           var t = document.createTextNode(name);
+           a.appendChild(t);
+           li.appendChild(a);
+
+           var a = document.createElement("a");
+           a.setAttribute("href", displayUrl);
+           var t = document.createTextNode(' (' + displayUrl + ')');
+           a.appendChild(t);
+           li.appendChild(a);
+
+           var t = document.createTextNode(name);
+           document.getElementById('results').appendChild(li);
+
+         }
+      },
+      error: function(XMLHttpRequest, textStatus, errorThrown) {
+          console.log("Status: " + textStatus);
+          console.log("Error: " + errorThrown);
+      }
+  });
+
+
+
+</script>
