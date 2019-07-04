@@ -162,7 +162,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
            for (i = 0; i < items.length; i++) {
 
              var name = items[i].name;
-             var url = items[i].url;
+             var url = items[i].html_url;
              var owner = items[i].repository.owner.login;
              var repository = items[i].repository.name;
              var displayUrl = repository;
