@@ -158,10 +158,10 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
            items = results.items;
            for (i = 0; i < items.length; i++) {
-
+             console.log(items[i]);
              var name = items[i].name;
              var url = items[i].html_url;
-             url = url.replace('github.com','raw.githubusercontent.com');
+             //url = url.replace('github.com','raw.githubusercontent.com');
              var owner = items[i].repository.owner.login;
              var repository = items[i].repository.name;
              var displayUrl = repository;
