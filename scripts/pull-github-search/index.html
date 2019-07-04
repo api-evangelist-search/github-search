@@ -63,6 +63,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
              var name = items[i].name;
              var url = items[i].html_url;
+             url = url.replace('github.com','raw.githubusercontent.com');
              var owner = items[i].repository.owner.login;
              var repository = items[i].repository.name;
              var displayUrl = repository;
@@ -111,7 +112,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
            var request = {};
            request['message'] = 'scripts/pull-github-search';
-           console.log("sha2: " + sha);
+           //console.log("sha2: " + sha);
            if(sha!=''){
              request['sha'] = sha;
            }
@@ -123,7 +124,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
            request['content'] = btoa(unescape(encodeURIComponent(response_yaml)))
 
-           console.log(JSON.stringify(request));
+           //console.log(JSON.stringify(request));
 
            var api_url = 'https://api.github.com/repos/{{ site.org }}/{{ site.repo }}/contents/store/' + saveFile;
 
@@ -131,7 +132,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
            //console.log(api_url);
 
-           console.log(request);
+           //console.log(request);
 
            $.ajax({
              url : api_url,
