@@ -43,9 +43,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
   var org = '{{ site.org }}';
   var repo = '{{ site.repo }}';
 
-  function saveResults(store,sha)
-    {
-
+  function saveResults(store,sha){
       var api_url = 'https://api.github.com/search/code?q=' + query + '+in:file+language:json&per_page=100&page=' + page;
 
       var response = $.ajax({
