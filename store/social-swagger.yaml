@@ -1,700 +1,147 @@
-- name: passport-google-oauth.json
-  url: >-
-    https://github.com/nice-registry/dependent-packages/blob/d8f40fe4968d49a2e2c25e9ac3ef7389be95e14f/dependents/passport-google-oauth.json
-  owner: nice-registry
-  repo: dependent-packages
-  valid_check: 0
-  valid_type: unknown
 - name: bower.json
   url: >-
-    https://github.com/karthik2883/practice/blob/f0d603406da74a5d656c11c109ad5643d39949d4/bower.json
-  owner: karthik2883
-  repo: practice
+    https://github.com/hothson/sc_test/blob/898c24f3e01ecb6c8387efc56b64d83264fcb36f/node-sbadmin/bower.json
+  owner: hothson
+  repo: sc_test
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/Invizible/publications/blob/d89f3a83bcf2844a05cc9f76080454815ab30a02/.yo-rc.json
-  owner: Invizible
-  repo: publications
-  valid_check: 0
-  valid_type: unknown
-- name: package.json
-  url: >-
-    https://github.com/Eduard20/rest-hapi/blob/4e6316dbdd47657512ed194af023bd53950a1c15/package.json
-  owner: Eduard20
-  repo: rest-hapi
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/immekhan/server/blob/60cedb575d581b547af4de5049f801fd1968acb2/.yo-rc.json
-  owner: immekhan
-  repo: server
-  valid_check: 0
-  valid_type: unknown
-- name: Shorticle.json
-  url: >-
-    https://github.com/opendata-for-all/APIDiscoverer/blob/961d51bb34b669b0e481883cb1fc36285658322e/som.mashape.discoverer/mashape/Shorticle.json
-  owner: opendata-for-all
-  repo: APIDiscoverer
-  valid_check: 0
-  valid_type: unknown
-- name: Profilematching.json
-  url: >-
-    https://github.com/opendata-for-all/APIDiscoverer/blob/961d51bb34b669b0e481883cb1fc36285658322e/som.mashape.discoverer/mashape/Profilematching.json
-  owner: opendata-for-all
-  repo: APIDiscoverer
-  valid_check: 0
-  valid_type: unknown
-- name: e4873fd762411d31dccd34ae1bba83b0529a860b.json
-  url: >-
-    https://github.com/therobinhood/part-85/blob/36ffcb9357c5f8108d9d7b43cf3e2fd026ee858b/metadata/e4873fd762411d31dccd34ae1bba83b0529a860b.json
-  owner: therobinhood
-  repo: part-85
-  valid_check: 0
-  valid_type: unknown
-- name: bower.json
-  url: >-
-    https://github.com/cromarti/License-Electrical-Engineering/blob/d2b079e2e899ce429d2979a30a17d5ae1f469d03/Nidec%20App/bower.json
-  owner: cromarti
-  repo: License-Electrical-Engineering
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/hanndbn/shopeeApp/blob/9333ee19ae4a03a2b0bc45196e2aa2a9b17404da/.yo-rc.json
-  owner: hanndbn
-  repo: shopeeApp
-  valid_check: 0
-  valid_type: unknown
-- name: package.json
-  url: >-
-    https://github.com/andela/kingsmen-ah-backend/blob/223a84191e729e27be1d59936c5bf92823f4a04f/package.json
-  owner: andela
-  repo: kingsmen-ah-backend
-  valid_check: 0
-  valid_type: unknown
-- name: package.json
-  url: >-
-    https://github.com/flowground/bufferapp-com-connector/blob/cde55717fa0a8208689aaa97113fa8fa35b3f31d/package.json
-  owner: flowground
-  repo: bufferapp-com-connector
-  valid_check: 0
-  valid_type: unknown
-- name: helpscout.json
-  url: >-
-    https://github.com/haydenfulghum/helpscoutswagger/blob/a7010d8e67a5bba020368350f1aa274733c5bcb7/helpscout.json
-  owner: haydenfulghum
-  repo: helpscoutswagger
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/karabily/jhipsterFirst/blob/d9eb129db74a0d7ad53797b259f2975b408f11ce/.yo-rc.json
-  owner: karabily
-  repo: jhipsterFirst
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/KavenWang/Springcloud-Learning/blob/5a42bd1411040f36e5090c66f7223fcdbf926a5f/kms-gateway-server/.yo-rc.json
-  owner: KavenWang
-  repo: Springcloud-Learning
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/shailendradhaniya/traffic_anpr/blob/07ddaa6d331f5518ea68d7acb4b5a62338f85260/.yo-rc.json
-  owner: shailendradhaniya
-  repo: traffic_anpr
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/malikhan5049/jhipsterSampleApplication/blob/c0925a297496e98da4e109fc2d28a0d427a39431/.yo-rc.json
-  owner: malikhan5049
+    https://github.com/keerthiD0589/jhipsterSampleApplication/blob/de4788402ae905870c400da791ecf522efdf3d5f/.yo-rc.json
+  owner: keerthiD0589
   repo: jhipsterSampleApplication
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/dssafford/LearningApp/blob/9bfdc439f448ed3ca6c8762d2375069b1454a721/.yo-rc.json
-  owner: dssafford
-  repo: LearningApp
+    https://github.com/zen1st/blogs/blob/f94a906f93c31c5de67cae2761fa6555eb487ba4/.yo-rc.json
+  owner: zen1st
+  repo: blogs
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/romaan/jhipsterSampleApplication/blob/470ddb2e372de859d346d0fea4bbdd49e7f4dec1/.yo-rc.json
-  owner: romaan
+    https://github.com/ButterflyApp/OnceAgainGames/blob/1e731b1e5f7b5c67f6c40dae66736d0e41c8f3c0/.yo-rc.json
+  owner: ButterflyApp
+  repo: OnceAgainGames
+  valid_check: 0
+  valid_type: unknown
+- name: .yo-rc.json
+  url: >-
+    https://github.com/nelson54/lost-cities-java/blob/c24bdd7a244954338626dfd2880dd6597209124d/.yo-rc.json
+  owner: nelson54
+  repo: lost-cities-java
+  valid_check: 0
+  valid_type: unknown
+- name: .yo-rc.json
+  url: >-
+    https://github.com/campino-rocks/b2b/blob/503413dda0dcafe3ca9c19fd39590e0af123dcde/.yo-rc.json
+  owner: campino-rocks
+  repo: b2b
+  valid_check: 0
+  valid_type: unknown
+- name: .yo-rc.json
+  url: >-
+    https://github.com/onlyshishir/jhipsterSampleApplication/blob/508e504250ce48eb5814608bfc45529ef251a29a/.yo-rc.json
+  owner: onlyshishir
   repo: jhipsterSampleApplication
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/shyamailene/shakti-us/blob/a5ac733ca5cd9c50c3c15ccde8b0eee544b57191/.yo-rc.json
-  owner: shyamailene
-  repo: shakti-us
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/sandyyarra/jhipsterSampleApplication/blob/30daffc7549cc6012763991f2f4042e826e08d07/.yo-rc.json
-  owner: sandyyarra
+    https://github.com/firatgursoy/jhipsterSampleApplication/blob/cf58b1a69e5a95c10b3b3979f43cb5ab8e26ebe8/.yo-rc.json
+  owner: firatgursoy
   repo: jhipsterSampleApplication
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/PrimeRevenue/java_spilled/blob/c3751cec65bb88e181b935f36ec2c18c4311507a/.yo-rc.json
-  owner: PrimeRevenue
-  repo: java_spilled
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/vk1993/jhipsterSampleApplication/blob/717290ca52b6ce9ad5c9ab63dbb7362380b9070f/.yo-rc.json
-  owner: vk1993
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/trangquocvan/DienThoai/blob/66fb5fdcb8a01f57125b6159d5b92c6e419ee72d/.yo-rc.json
-  owner: trangquocvan
-  repo: DienThoai
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/jenac/bot-portal/blob/d75e074417690bfc16519fa3955b76379a523a0b/.yo-rc.json
-  owner: jenac
-  repo: bot-portal
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/yacinezr/jhipsterIPRES/blob/d98146027ff20ee8636b3cf10f913bcd54cc3b7a/.yo-rc.json
-  owner: yacinezr
-  repo: jhipsterIPRES
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/babolinGiordano/ViaFa/blob/48703bb97d47e6143e2d1e132535bc5f418910b5/.yo-rc.json
-  owner: babolinGiordano
-  repo: ViaFa
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/netonicolas/michelRecrutement/blob/9703947d155b467f9fd1c2f976de8602068f2743/.yo-rc.json
-  owner: netonicolas
-  repo: michelRecrutement
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/kcrane3576/poc-micro/blob/23d245686e92165563e008060761449329d6b6ff/.yo-rc.json
-  owner: kcrane3576
-  repo: poc-micro
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/Jenli-Chen/jhipsterSampleApplication/blob/02ab9b01b57e0f5326413c7a5adc670257bb7450/.yo-rc.json
-  owner: Jenli-Chen
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/jchacana-jhipster-conference-demo/jhipster-blog-microservice/blob/6d5e31610629f66d995f966bdffdad4e0a733685/.yo-rc.json
-  owner: jchacana-jhipster-conference-demo
-  repo: jhipster-blog-microservice
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/eddiechen90/jhipsterSampleApplication/blob/026aa2951493a640111756793feca96850e8e592/.yo-rc.json
-  owner: eddiechen90
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/micra1/IoT/blob/7853dffff62e05ae3a90ba25576cbefc99d30a5a/.yo-rc.json
-  owner: micra1
-  repo: IoT
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/sagehornung/gateway/blob/ae1bd0da09f858b9e9440317bccde56308a29cfb/.yo-rc.json
-  owner: sagehornung
+    https://github.com/SecurityRAT/gateway/blob/b571261f0cbac3c08f8029175c62d9e8756e0356/.yo-rc.json
+  owner: SecurityRAT
   repo: gateway
   valid_check: 0
   valid_type: unknown
-- name: package.json
+- name: .yo-rc.json
   url: >-
-    https://github.com/antikytheraton/hapi_graphql_mongoose_api/blob/75f9144e858b07263f56e01c628ef13315f7efe5/package.json
-  owner: antikytheraton
-  repo: hapi_graphql_mongoose_api
-  valid_check: 0
-  valid_type: unknown
-- name: JSON Whois - Screenshots - Google - Social Data.json
-  url: >-
-    https://github.com/opendata-for-all/hapi/blob/12a015681f684c9965681515e288091fde186738/APIs/generated/mashape/JSON%20Whois%20-%20Screenshots%20-%20Google%20-%20Social%20Data.json
-  owner: opendata-for-all
-  repo: hapi
-  valid_check: 0
-  valid_type: unknown
-- name: package.json
-  url: >-
-    https://github.com/andela/freyja-ah-backend/blob/908cd43d7f830fafc6fb6159c61b5d334ef86fec/package.json
-  owner: andela
-  repo: freyja-ah-backend
-  valid_check: 0
-  valid_type: unknown
-- name: bower.json
-  url: >-
-    https://github.com/joncak/awards/blob/bb4e93c69469c3dee13fbdf4aefac776ea851f9c/bower.json
-  owner: joncak
-  repo: awards
+    https://github.com/Djeukam/monapplication/blob/b5a97bc42000c949dab5305b3d2ba969483c0c88/.yo-rc.json
+  owner: Djeukam
+  repo: monapplication
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/gustavocaraciolo/Jhipster/blob/b941500bc8c45d364ef13ee389a88740e23b4c16/.yo-rc.json
-  owner: gustavocaraciolo
-  repo: Jhipster
+    https://github.com/vishalpatidar00789/suchaz-apis/blob/38ed8d19e25898c72c28bcb3d20cbde800733457/.yo-rc.json
+  owner: vishalpatidar00789
+  repo: suchaz-apis
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/bea2701/shelter/blob/2eee48311c1f8cd98386aca30918c293eb6f8979/.yo-rc.json
-  owner: bea2701
-  repo: shelter
+    https://github.com/typhoon51280/jhipsterApp/blob/4095e84d9ad0eb80cf55ce9d78bf7f50733f6fa9/.yo-rc.json
+  owner: typhoon51280
+  repo: jhipsterApp
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/juanccgproyectos/oauth_sqlserver/blob/fd523255b2a4fde1c136a408f86fc36945198318/.yo-rc.json
-  owner: juanccgproyectos
-  repo: oauth_sqlserver
+    https://github.com/feherpedro/dontwant2fail/blob/f91a72c935e48d404a47099c4e5e81d054d67e22/.yo-rc.json
+  owner: feherpedro
+  repo: dontwant2fail
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/Mimetis/Jhispter-Kubernetes/blob/52c4ae319849c8e10372ab20612664d1f5aaf8bb/catalog/.yo-rc.json
-  owner: Mimetis
-  repo: Jhispter-Kubernetes
+    https://github.com/spring7/mySweetShop/blob/3b49e44aa5001ee1096c60d50ccb41331d9fe2e3/.yo-rc.json
+  owner: spring7
+  repo: mySweetShop
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/Mimetis/Jhispter-Kubernetes/blob/52c4ae319849c8e10372ab20612664d1f5aaf8bb/contoso/.yo-rc.json
-  owner: Mimetis
-  repo: Jhispter-Kubernetes
+    https://github.com/juliensutter/babyfoot/blob/e8ffcbb635896cee28ba93936698f71bf51a6eac/.yo-rc.json
+  owner: juliensutter
+  repo: babyfoot
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/Mimetis/Jhispter-Kubernetes/blob/52c4ae319849c8e10372ab20612664d1f5aaf8bb/number/.yo-rc.json
-  owner: Mimetis
-  repo: Jhispter-Kubernetes
+    https://github.com/ronnyling/YamlPropertyMapper/blob/317deaaa019945a076ded4343cbb762d3bf8fbcf/.yo-rc.json
+  owner: ronnyling
+  repo: YamlPropertyMapper
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/Mimetis/Jhispter-Kubernetes/blob/52c4ae319849c8e10372ab20612664d1f5aaf8bb/uaa/.yo-rc.json
-  owner: Mimetis
-  repo: Jhispter-Kubernetes
+    https://github.com/srikant199/cricket/blob/79724ee55c0c2f56fb14f99b7973f40eb224748b/.yo-rc.json
+  owner: srikant199
+  repo: cricket
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/luisfrsa/jhipster-rfbloyalty/blob/db3a5654f976f6d4e77038df221038fc5206a152/.yo-rc.json
-  owner: luisfrsa
-  repo: jhipster-rfbloyalty
+    https://github.com/iccorp/shana/blob/38e108a738951657949f64eecfd4e285bc335dd5/.yo-rc.json
+  owner: iccorp
+  repo: shana
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/liulixing520/jz/blob/df4c30ea23d1e1a8e8fbc4c64082b848aab4719d/.yo-rc.json
-  owner: liulixing520
-  repo: jz
+    https://github.com/tuannt39-study/jhipster-v4/blob/94511d9ab8e0c4a5a8766c98b4476f6530d7d5cf/.yo-rc.json
+  owner: tuannt39-study
+  repo: jhipster-v4
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/skyrider26/Skyrider26Application/blob/bbc4e4a9a00a92e2825b9f6404a4924c2b0b3d76/.yo-rc.json
-  owner: skyrider26
-  repo: Skyrider26Application
+    https://github.com/Sanjeev-Hegde/corda-backend/blob/dcebfad1846f9536acd617a747bd7cf930c9f861/api/.yo-rc.json
+  owner: Sanjeev-Hegde
+  repo: corda-backend
   valid_check: 0
   valid_type: unknown
 - name: .yo-rc.json
   url: >-
-    https://github.com/dezky/weightControl/blob/53f4acd0e3180cc882583edab0f27c8df1533b2a/.yo-rc.json
-  owner: dezky
-  repo: weightControl
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/CezaryKac/jhipsterSampleApplication/blob/27360ddc8243118c129b65887905d00d6685116d/.yo-rc.json
-  owner: CezaryKac
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/9one9/fullStackJhipster/blob/888f46e18a6fb579525416c4c844e1bffa58b0d7/.yo-rc.json
-  owner: 9one9
-  repo: fullStackJhipster
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/laurentsorin/jhipster-role-sample/blob/ff0a17cd20f23db4f26d8eeb6e0711882fd9c938/.yo-rc.json
-  owner: laurentsorin
-  repo: jhipster-role-sample
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/osamahq/jhipsterSampleApplication/blob/608ebb41c5b483b7693d09e4ee36903efe55fbf2/.yo-rc.json
-  owner: osamahq
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/psinghcan/jhipsterSampleApplication/blob/26f19227669c8800f02ab1961179ab2324386c71/.yo-rc.json
-  owner: psinghcan
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/abonifacino/eatin/blob/fcaf0c0ad24b44f0cde2616aba65df47d23270f7/.yo-rc.json
-  owner: abonifacino
-  repo: eatin
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/neagkv/rfb-loyalty2/blob/b6433dfe6c1ad4cbbacb668cea7440da4eb6ee8e/.yo-rc.json
-  owner: neagkv
-  repo: rfb-loyalty2
-  valid_check: 0
-  valid_type: unknown
-- name: urpi-adclistadojuridicas.json
-  url: >-
-    https://github.com/gespch/scripts/blob/7f1b9c0a5fd2ee3e656ef151d835ffaeb1edb2b9/mibanco.lac/tmp/urpi-adclistadojuridicas.json
-  owner: gespch
-  repo: scripts
-  valid_check: 0
-  valid_type: unknown
-- name: bower.json
-  url: >-
-    https://github.com/CODEOFPENGUIN/ether-vote/blob/ece1049591c62dfea6f042c8fca2c2d7b84ebb91/bower.json
-  owner: CODEOFPENGUIN
-  repo: ether-vote
-  valid_check: 0
-  valid_type: unknown
-- name: config.production.json
-  url: >-
-    https://github.com/micoli/zombie-dice/blob/361ed07275da0648ba5849bc132620f35477ee55/src/configurations/config.production.json
-  owner: micoli
-  repo: zombie-dice
-  valid_check: 0
-  valid_type: unknown
-- name: 3361951918.json
-  url: >-
-    https://github.com/rodrigovive/rodrigovive.github.io/blob/b86606524ddf2e082bc39c715b5a942affc9191a/static/d/3361951918.json
-  owner: rodrigovive
-  repo: rodrigovive.github.io
-  valid_check: 0
-  valid_type: unknown
-- name: passport-facebook.json
-  url: >-
-    https://github.com/nice-registry/dependent-packages/blob/d8f40fe4968d49a2e2c25e9ac3ef7389be95e14f/dependents/passport-facebook.json
-  owner: nice-registry
-  repo: dependent-packages
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/mraible/ionic-jhipster-example/blob/9324f073752a07be13ceaadb2ab2bbf6391284ba/jhipster-oauth-backend/.yo-rc.json
-  owner: mraible
-  repo: ionic-jhipster-example
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/CesarNog/lookbrbackend/blob/4304c163c35ef33ceae57c3f399fe09f9f5e3e38/.yo-rc.json
-  owner: CesarNog
-  repo: lookbrbackend
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/wisesean/quartzApplication/blob/e3b7bd35a7cbad95e9490a0557893b66744debe1/.yo-rc.json
-  owner: wisesean
-  repo: quartzApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/jwboy/jhipsterSampleApplication/blob/dd968e6c6023d7231b7c1abc0d8b84230b522edf/.yo-rc.json
-  owner: jwboy
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/cloudhadoop/jhipsterSampleApplication/blob/3d54d49c14ed42f74dcc0a8c0c85b39edbe9f0e3/.yo-rc.json
-  owner: cloudhadoop
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/digidevbr/finapplication/blob/65404ffe57f1d139c5a70de1c3dff8e02d39fc0f/.yo-rc.json
-  owner: digidevbr
-  repo: finapplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/newfacer/jhipsterSampleGatewayApplication/blob/d28f882be1c625ac342336574d269da3d589a807/.yo-rc.json
-  owner: newfacer
-  repo: jhipsterSampleGatewayApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/xiaocai2014/note/blob/018b79bd0d594128a119295499ce2f71ddda5598/.yo-rc.json
-  owner: xiaocai2014
-  repo: note
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/Steven-Garcia/CV/blob/eb285e526b93e658ad344bb260210c98189ad03c/.yo-rc.json
-  owner: Steven-Garcia
-  repo: CV
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/alvaroReina/jhipsterSampleApplication/blob/6e6da9cdac5d0cc6e7723b28a6e948332d436314/.yo-rc.json
-  owner: alvaroReina
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/leopereiralima/SGCAP/blob/2953e3899ee90396d29d7b5fc32d1ef799ea272e/.yo-rc.json
-  owner: leopereiralima
-  repo: SGCAP
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/lpaolons/AntaresMB/blob/c4cfc8203e04a40bdeff948a69193fb134da9094/.yo-rc.json
-  owner: lpaolons
-  repo: AntaresMB
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/ammaiche/Z-Reporting/blob/e7f6e96532e2048171b7f70d22e2b30d32077749/.yo-rc.json
-  owner: ammaiche
-  repo: Z-Reporting
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/longyli/pangu/blob/c2674735f7328b5d7613e684c6c49ed306b364db/.yo-rc.json
-  owner: longyli
-  repo: pangu
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/Karaoglan/jhipsterMysql/blob/3999b87f569289742e6c19cf32a164a42e0cbf4f/.yo-rc.json
-  owner: Karaoglan
-  repo: jhipsterMysql
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/thushear/microservice-jhipster/blob/b4eaf676b6a6df2894a978ccc8da92a289aa155f/jhipster-gateway/.yo-rc.json
-  owner: thushear
-  repo: microservice-jhipster
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/thushear/microservice-jhipster/blob/b4eaf676b6a6df2894a978ccc8da92a289aa155f/jhipster-microservice/.yo-rc.json
-  owner: thushear
-  repo: microservice-jhipster
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/ntarunmenon/rfb-loyalty/blob/5e31017515deaddce1994642e40f3f20d593de5d/.yo-rc.json
-  owner: ntarunmenon
-  repo: rfb-loyalty
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/Csantos07/sandbox2/blob/877ad944aea97b819e60986927f0bead0992294a/.yo-rc.json
-  owner: Csantos07
-  repo: sandbox2
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/DanielM235/hsearchm/blob/38c5cf65d119ad420189990fdefadbad6b5908ab/.yo-rc.json
-  owner: DanielM235
-  repo: hsearchm
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/TrishaJariwala/jhipsterCourierApplication/blob/a631fe7caaa418e18b32d5130b1862b9dedf5f7c/.yo-rc.json
-  owner: TrishaJariwala
-  repo: jhipsterCourierApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/findhamid/uaa/blob/a0fc7d221a23a04a5da1b140c69b946906e4dfd4/.yo-rc.json
-  owner: findhamid
-  repo: uaa
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/DhannyRaymond007/jhipsterSampleApplication/blob/b1786c0b2090293a473d2880f7d61e8d48355a74/.yo-rc.json
-  owner: DhannyRaymond007
-  repo: jhipsterSampleApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/eswarn24/court/blob/211a20feb23f2a854d8a6cd92fa1fd415bf8c127/.yo-rc.json
-  owner: eswarn24
-  repo: court
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/hackpros/dsinterface/blob/7415002a6f0eea9356c3909a926decfa7ef374ee/.yo-rc.json
-  owner: hackpros
-  repo: dsinterface
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/tvprasad/MonolithicApp/blob/3968b82e40b8a98020ca9e26d8a1b0a0deeefe16/.yo-rc.json
-  owner: tvprasad
-  repo: MonolithicApp
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/utiliteez/jhSampleAngular1/blob/304edb07b6d6d82267cb3ff9e262c2d88f9934f6/.yo-rc.json
-  owner: utiliteez
-  repo: jhSampleAngular1
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/rodrigogrohl/elmoreplus/blob/00a0b93b82a7e9dd5b9870405ffa028324ceee21/.yo-rc.json
-  owner: rodrigogrohl
-  repo: elmoreplus
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/nonomoho/jhipsterFirstApplication/blob/bf2149d551bac17264c6e7e0051151584d825ab9/.yo-rc.json
-  owner: nonomoho
-  repo: jhipsterFirstApplication
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/limasqbank/monolithicOne/blob/6a0e7a5444f021ae66aaf204853e8e1c606e7c2a/.yo-rc.json
-  owner: limasqbank
-  repo: monolithicOne
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/hgspch/jhio-raible-blog-back/blob/090273266b95067e9858499447747a0fe643d1a4/.yo-rc.json
-  owner: hgspch
-  repo: jhio-raible-blog-back
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/jetakasabaqi/warehouseproject/blob/cd461fdf8eb8853beb802d56c2978790acb5bd85/.yo-rc.json
-  owner: jetakasabaqi
-  repo: warehouseproject
-  valid_check: 0
-  valid_type: unknown
-- name: 9bd955b91d79e5b5fa4520a46458d49f81255540.json
-  url: >-
-    https://github.com/feupeu/NyhedsfilterP2/blob/a7bcc25f6ea54aa38ee6d1666284d4d55af70285/System/NewsTrainer/data/entertainment_arts/9bd955b91d79e5b5fa4520a46458d49f81255540.json
-  owner: feupeu
-  repo: NyhedsfilterP2
-  valid_check: 0
-  valid_type: unknown
-- name: ba47b06529ab335d0ede0b42c7b83127d1a019ff.json
-  url: >-
-    https://github.com/feupeu/NyhedsfilterP2/blob/a7bcc25f6ea54aa38ee6d1666284d4d55af70285/System/NewsTrainer/data/entertainment_arts/ba47b06529ab335d0ede0b42c7b83127d1a019ff.json
-  owner: feupeu
-  repo: NyhedsfilterP2
-  valid_check: 0
-  valid_type: unknown
-- name: 18ef2d42c1c897491fe01cf326e0f83bedd7cf56.json
-  url: >-
-    https://github.com/feupeu/NyhedsfilterP2/blob/a7bcc25f6ea54aa38ee6d1666284d4d55af70285/System/NewsTrainer/data/entertainment_arts/18ef2d42c1c897491fe01cf326e0f83bedd7cf56.json
-  owner: feupeu
-  repo: NyhedsfilterP2
-  valid_check: 0
-  valid_type: unknown
-- name: social-profiles.json
-  url: >-
-    https://github.com/xamgore/python-stepik/blob/cb6044f25e57c592c817053c92086b5f640beb8e/schemas/api/social-profiles.json
-  owner: xamgore
-  repo: python-stepik
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/mangoodev/rally-santafesino/blob/bf9f3f8818b4579e9955825697fee1b5a50b4db3/.yo-rc.json
-  owner: mangoodev
-  repo: rally-santafesino
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/amitthk/ngjava/blob/fb34ab81c0bbc97c6e60588121a705503cd2387e/.yo-rc.json
-  owner: amitthk
-  repo: ngjava
-  valid_check: 0
-  valid_type: unknown
-- name: .yo-rc.json
-  url: >-
-    https://github.com/stefaneacsu147/spring-mantra/blob/033c9899c9a18b0f3d0fee1addf00faae5d40ad8/.yo-rc.json
-  owner: stefaneacsu147
-  repo: spring-mantra
+    https://github.com/vilashProgrammr/589/blob/3ab9db6d5b6898ebd30ecb2c785368b42f869b59/.yo-rc.json
+  owner: vilashProgrammr
+  repo: '589'
   valid_check: 0
   valid_type: unknown
