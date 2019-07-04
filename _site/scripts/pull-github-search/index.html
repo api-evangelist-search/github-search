@@ -128,12 +128,126 @@ This makes a code search request to GitHub API, and saves the results to the /st
     page = 1;
   }
 
+  var saveFileName = query.replace(/\//g,'-');
+  saveFileName = saveFileName.replace(/:/g,'-');
+  saveFileName = saveFileName.replace(/,/g,'');
+  saveFileName = saveFileName.replace(/ /g,'-');
+  saveFileName = saveFileName.toLowerCase();
+
+  var saveFile = saveFileName + ".yaml";
+
   var githubToken = getUrlVar('githubToken');
 
   var org = 'api-evangelist-search';
   var repo = 'github-search';
 
-  var api_url = 'https://api.github.com/search/code?q=' + query + '+in:file+language:json&per_page=100&page=' + page;
+  function saveResults(store)
+    {
+
+      var api_url = 'https://api.github.com/search/code?q=' + query + '+in:file+language:json&per_page=100&page=' + page;
+
+      var response = $.ajax({
+         url: api_url,
+         method: "get",
+         headers: {
+          'Authorization':'token ' + githubToken,
+          'Accept':'application/vnd.github.v3+json'
+         },
+         success:function(response){
+
+           var relevant = [];
+           results = response;
+
+           items = results.items;
+           for (i = 0; i < items.length; i++) {
+
+             var name = items[i].name;
+             var url = items[i].url;
+             var owner = items[i].repository.owner.login;
+             var repository = items[i].repository.name;
+             var displayUrl = repository;
+
+             var stored = 0;
+             for (s = 0; s < store.length; s++) {
+               if(store[s] == url){
+                 var stored = 1;
+               }
+             }
+
+             var li = document.createElement("li");
+
+             var a = document.createElement("a");
+             a.setAttribute("href", url);
+             var t = document.createTextNode(name);
+             a.appendChild(t);
+             li.appendChild(a);
+
+             var a = document.createElement("a");
+             a.setAttribute("href", displayUrl);
+             var t = document.createTextNode(' (' + displayUrl + ')');
+             a.appendChild(t);
+             li.appendChild(a);
+
+             var t = document.createTextNode(name);
+             document.getElementById('results').appendChild(li);
+
+             var r = {};
+             r['name'] = name;
+             r['url'] = url;
+             r['owner'] = owner;
+             r['repo'] = repository;
+             r['domain_process'] = 0;
+             r['html_process'] = 0;
+
+             if(stored==0){
+               relevant.push(r);
+             }
+
+           }
+
+           response_yaml = jsyaml.dump(relevant);
+
+           var request = {};
+           request['message'] = 'scripts/pull-github-search';
+
+           var committer = {};
+           committer['name'] = 'Kin Lane';
+           committer['email'] = 'info@apievangelist.com';
+
+           request['author'] = committer;
+
+           request['content'] = btoa(unescape(encodeURIComponent(response_yaml)))
+
+           var api_url = 'https://api.github.com/repos/api-evangelist-search/github-search/contents/store/' + saveFile;
+
+           request = JSON.stringify(request);
+
+           //console.log(api_url);
+
+           console.log(request);
+
+           $.ajax({
+             url : api_url,
+             type: 'PUT',
+             dataType : "json",
+             data: request,
+             headers: {
+              'Authorization':'token ' + githubToken,
+              'Accept':'application/vnd.github.v3+json'
+             },
+           });
+
+          },
+          error: function(XMLHttpRequest, textStatus, errorThrown) {
+              console.log("Status: " + textStatus);
+              console.log("Error: " + errorThrown);
+          }
+      });
+
+    }
+
+
+  var api_url = 'https://api.github.com/repos/api-evangelist-search/github-search/contents/store/' + saveFile;
 
 	var response = $.ajax({
      url: api_url,
@@ -144,94 +258,18 @@ This makes a code search request to GitHub API, and saves the results to the /st
      },
      success:function(response){
 
-       var relevant = [];
-       results = response;
-
-       items = results.items;
-       for (i = 0; i < items.length; i++) {
-
-         var name = items[i].name;
-         var url = items[i].url;
-         var owner = items[i].repository.owner.login;
-         var repository = items[i].repository.name;
-         var displayUrl = repository;
-
-         var li = document.createElement("li");
-
-         var a = document.createElement("a");
-         a.setAttribute("href", url);
-         var t = document.createTextNode(name);
-         a.appendChild(t);
-         li.appendChild(a);
-
-         var a = document.createElement("a");
-         a.setAttribute("href", displayUrl);
-         var t = document.createTextNode(' (' + displayUrl + ')');
-         a.appendChild(t);
-         li.appendChild(a);
-
-         var t = document.createTextNode(name);
-         document.getElementById('results').appendChild(li);
-
-         var r = {};
-         r['name'] = name;
-         r['url'] = url;
-         r['owner'] = owner;
-         r['repo'] = repository;
-         r['domain_process'] = 0;
-         r['html_process'] = 0;
-         relevant.push(r);
-
-       }
-
-       response_yaml = jsyaml.dump(relevant);
-
-       saveFileName = query.replace(/\//g,'-');
-       saveFileName = saveFileName.replace(/:/g,'-');
-       saveFileName = saveFileName.replace(/,/g,'');
-       saveFileName = saveFileName.replace(/ /g,'-');
-       saveFileName = saveFileName.toLowerCase();
-
-       var saveFile = saveFileName + ".yaml";
-
-       var request = {};
-       request['message'] = 'scripts/pull-github-search';
-
-       var committer = {};
-       committer['name'] = 'Kin Lane';
-       committer['email'] = 'info@apievangelist.com';
-
-       request['author'] = committer;
-
-       request['content'] = btoa(unescape(encodeURIComponent(response_yaml)))
-
-       var api_url = 'https://api.github.com/repos/api-evangelist-search/github-search/contents/store/' + saveFile;
-
-       request = JSON.stringify(request);
-
-       //console.log(api_url);
-
-       console.log(request);
-
-       $.ajax({
-         url : api_url,
-         type: 'PUT',
-         dataType : "json",
-         data: request,
-         headers: {
-          'Authorization':'token ' + githubToken,
-          'Accept':'application/vnd.github.v3+json'
-         },
-       });
+       store = jsyaml.dump(response);
+       saveResults(store);
 
       },
       error: function(XMLHttpRequest, textStatus, errorThrown) {
-          console.log("Status: " + textStatus);
-          console.log("Error: " + errorThrown);
+          //console.log("Status: " + textStatus);
+          //console.log("Error: " + errorThrown);
+        var store = [];
+        saveResults(store);
+
       }
   });
-
-
 
 </script>
 
