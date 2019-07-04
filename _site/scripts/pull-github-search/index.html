@@ -144,7 +144,6 @@ This makes a code search request to GitHub API, and saves the results to the /st
   function saveResults(store)
     {
 
-      console.log("store: " + store);
       var api_url = 'https://api.github.com/search/code?q=' + query + '+in:file+language:json&per_page=100&page=' + page;
 
       var response = $.ajax({
@@ -170,7 +169,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
              var stored = 0;
              for (s = 0; s < store.length; s++) {
-               console.log(JSON.stringify(store[s]) + ' == ' + url);
+               //console.log(JSON.stringify(store[s]) + ' == ' + url);
                if(store[s].url == url){
                  var stored = 1;
                }
@@ -250,6 +249,7 @@ This makes a code search request to GitHub API, and saves the results to the /st
 
 
   var api_url = 'https://api.github.com/repos/api-evangelist-search/github-search/contents/store/' + saveFile;
+  //console.log(api_url);
 
 	var response = $.ajax({
      url: api_url,
@@ -260,7 +260,10 @@ This makes a code search request to GitHub API, and saves the results to the /st
      },
      success:function(response){
 
-       store = jsyaml.load(response);
+       var content = response.content;
+       content = content.replace(/\r\n/g, '');
+       store = atob(content);
+       store = jsyaml.load(store);
        saveResults(store);
 
       },
